@@ -5,7 +5,7 @@ module.exports = defineConfig({
   viewportWidth: 1500,
   viewportHeight: 900,
   chromeWebSecurity: false,
-  pageLoadTimeout: 9000, //Tiempo máximo de espera de carga de cada página (global) → 9s
+  pageLoadTimeout: 15000, //Tiempo máximo de espera de carga de cada página (global) → 9s
   defaultCommandTimeout:10000, //Tiempo máximo de espera de carga de cada elemento (global) → 10s
   e2e: {
     setupNodeEvents(on, config) {
